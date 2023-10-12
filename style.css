@@ -96,7 +96,7 @@
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, 50%);
     text-align: center;
@@ -174,7 +174,7 @@
         width: 90%;
         color: #fff;
         position: absolute;
-        top: 20%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, 50%);
         text-align: center;
@@ -1025,73 +1025,82 @@
 
     /* ----booking form----- */
 
-    .booking-div1 {
-        height: 70px;
+    .booking-div1{
+        height: 750px;
         width: 100%;
+        border-radius: 50px;
+        margin-bottom: -450px;
+    
     }
-
-    .booking-form-1 {
-        height: 40px;
-        width: 600px;
-        margin-left: 15%;
-        margin-top: 90px;
+    
+    .booking-form-1{
+      height: 20px;
+      width: 600px;
+      margin-left: 15%;
+      margin-top: 90px;
+      border-radius: 50px;
     }
-
-    .booking-h3 {
+    
+    .booking-h3{
         text-align: center;
         color: red;
         margin: auto;
         font-size: 40px;
         margin-top: 60px;
+        font-family: cursive;
     }
-
-    .booking-h1 {
-        text-align: center;
+    
+    .booking-h1{
+        /* text-align: center; */
         font-size: 60px;
+        margin-left: 520px ;
     }
-
-    .booking-btn {
+    
+    .booking-btn{
         margin-left: 25%;
         border-radius: 50px;
     }
-
-    .btn-btn-secondary {
+    
+    .btn-btn-secondary{
         border-radius: 10px;
         height: 40px;
         width: 150px;
-        background-color: black;
-        color: floralwhite;
+        margin-right: 90%;
+        
     }
-
-    .container-booking {
+    
+    .container-boooking{
         position: relative;
         height: 1200px;
-        width: 1200px;
+        width:  1200px;
+        border-radius: 50px;
     }
-
-    .booking-img {
-        position: absolute;
+    
+    .booking-img{
+         position: absolute;
         top: 0;
         right: 0;
         border-radius: 20px;
         height: 450px;
         width: 35%;
-        margin-top: -300px;
+        margin-top: -500px;
         margin-right: 90px;
     }
 
-    @media (min-width: 320px) and (max-width: 480px) {
+
+    @media (min-width: 320px) and (max-width: 480px){
         .booking-h3 {
             text-align: center;
             color: red;
             margin: auto;
             margin-top: 20px;
-            font-size: 20px;
+            font-size: 25px;
         }
 
         .booking-h1 {
             text-align: center;
             font-size: 30px;
+            margin-left: 20px;
         }
 
         .booking-form-1 {
@@ -1111,32 +1120,33 @@
         .booking-img {
             position: absolute;
             top: 0;
-            right: -200px;
+            left: 160px;
             border-radius: 20px;
-            width: 150px;
-            height: 250px;
+            width: 140px;
+            height: 190px;
 
             margin-top: -350px;
         }
 
         .btn-btn-secondary {
-            height: 30px;
-            width: 50px;
+            height: 43px;
+            width: 100px;
             background-color: black;
             color: #fff;
             transition: 1s;
-            font-size: 8px;
+            font-size: 15px;
             border-style: none;
             cursor: pointer;
+            margin-left: 70px;
+            margin-top: 30px;
         }
 
         .btn-btn-secondary:hover {
             background-color: red;
             border-bottom: 5px solid #e7b2b2;
             border-radius: 10px 6px;
-        }
     }
-
+ }
     /* <!-- ---review secition-----  */
 
 
@@ -1145,13 +1155,13 @@
         text-align: center;
         color: red;
         font-size: 40px;
-    }
+        margin-bottom: 10px;
+    } 
 
     .h1-review {
-
-        text-align: center;
-        font-size: 70px;
-        margin-top: 20px;
+        font-size: 50px;
+        margin-top: 2px;
+        margin-left: 630px;
     }
 
     .p-1 {
@@ -1181,15 +1191,17 @@
         .h3-review {
             text-align: center;
             color: red;
-            margin-top: 600px;
+            margin-top: 350px;
             font-size: 25px;
-            /* margin-bottom: 50px;  */
+
         }
 
         .h1-review {
             text-align: center;
             color: #000;
             font-size: 30px;
+            margin-top: -10px;
+            margin-left: 10px;
         }
 
         .container-review {
@@ -1208,7 +1220,7 @@
             border-radius: 50%;
             border: 3px solid red;
             margin-left: 10px;
-            margin-top: -400px;
+            margin-top: -450px;
 
         }
         .img-right2 {
@@ -1220,7 +1232,7 @@
             height: 350px;
             border-radius: 20px;
             box-shadow: #701313;
-            margin-bottom: -20px;
+            margin-bottom: 10px;
         }
     }
 
